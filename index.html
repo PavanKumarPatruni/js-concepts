@@ -1,0 +1,23 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JS</title>
+  </head>
+
+  <body>
+    <script>
+      var count = 0;
+
+      function increment() {
+        count += 1;
+        document.getElementById("count").textContent = count;
+      }
+    </script>
+
+    <button onclick="increment()">Increment</button>
+    <h1 id="count">0</h1>
+  </body>
+</html>
