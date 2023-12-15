@@ -1,3 +1,3 @@
 // increment.js
 
-export const incrementByOne = (value) => value + 1;
+const incrementByOne = (value) => value + 1;
